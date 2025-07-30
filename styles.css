@@ -795,6 +795,7 @@ a{
 
   .section-description .container-text{
     margin: 0 0 0 clamp(3.5625rem, -0.5089rem + 8.4821vw, 7.125rem);
+    padding: 0;
   }
 
     
