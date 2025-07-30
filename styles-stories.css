@@ -1,0 +1,207 @@
+
+.stories .container-text{
+  margin-top: 3rem;
+}
+
+.stories .main-header .container-text .title{
+  padding: 0;
+  font-size: 2rem;
+  letter-spacing: 0.208rem;
+}
+
+.stories .main-header .container-text .title span{
+  display: block;
+  font-size: 0.75rem;
+  letter-spacing: 0.125rem;
+  margin-bottom: 1.5rem;
+}
+
+.stories .container-text .text:first-of-type{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 0.8125rem;
+}
+
+.stories .container-text .text:first-of-type span{
+  color: #fff;
+  margin-left: 1rem;
+}
+
+.stories .main-header .link-invite{
+  padding-bottom: 3rem;
+}
+
+
+/*SECTION_STORIES*/
+
+.stories .section-stories{
+  max-width: 35rem;
+  max-height: 31.25rem;
+  width: 100%;
+  height: 23.4375rem;
+}
+
+.section-stories:nth-of-type(5){
+  background: url('./assets/stories/mobile/world-tour.jpg') no-repeat center / cover;
+}
+
+.section-stories:nth-of-type(6){
+  background: url('./assets/stories/mobile/unforeseen-corners.jpg') no-repeat center / cover;
+}
+
+.section-stories:nth-of-type(7){
+  background: url('./assets/stories/mobile/king-on-africa.jpg') no-repeat center / cover;
+}
+
+.section-stories:nth-of-type(8){
+  background: url('./assets/stories/mobile/trip-to-nowhere.jpg') no-repeat center / cover;
+}
+
+.section-stories:nth-of-type(9){
+  background: url('./assets/stories/mobile/rage-of-the-sea.jpg') no-repeat center / cover;
+}
+
+.section-stories:nth-of-type(10){
+  background: url('./assets/stories/mobile/running-free.jpg') no-repeat center / cover;
+}
+
+.section-stories:nth-of-type(11){
+  background: url('./assets/stories/mobile/behind-the-waves.jpg') no-repeat center / cover;
+}
+
+.section-stories:nth-of-type(12){
+  background: url('./assets/stories/mobile/calm-waters.jpg') no-repeat center / cover;
+}
+
+.section-stories:nth-of-type(13){
+  background: url('./assets/stories/mobile/milky-way.jpg') no-repeat center / cover;
+}
+
+.section-stories:nth-of-type(14){
+  background: url('./assets/stories/mobile/dark-forest.jpg') no-repeat center / cover;
+}
+
+.section-stories:nth-of-type(15){
+  background: url('./assets/stories/mobile/somwarpet.jpg') no-repeat center / cover;
+}
+
+.section-stories:nth-of-type(16){
+  background: url('./assets/stories/mobile/land-of-dreams.jpg') no-repeat center / cover;
+}
+
+
+
+@media screen and (min-width: 35rem){
+
+  .stories .main-header{
+    background: url('./assets/stories/tablet/moon-of-appalacia.jpg') no-repeat center / cover;
+    flex-direction: row;  
+    padding-bottom: clamp(3rem, -9.1154rem + 34.6154vw, 7.5rem);
+  }
+
+  .stories .container-image-header{
+    display: none;
+  }
+
+  .stories .container-text{
+    max-width: 24.5rem;
+    margin-top: clamp(3rem, -9.7885rem + 36.5385vw, 7.75rem);
+    padding-right: 0;
+  }
+
+  .stories .main-header .container-text .title{
+    font-size: clamp(2rem, 0.6538rem + 3.8462vw, 2.5rem);
+    letter-spacing: clamp(0.2081rem, 0.0668rem + 0.4038vw, 0.2606rem);
+  }
+
+  .stories .main-header .link-invite{
+    margin-top: 1rem;
+    padding-bottom: 0;
+  }
+
+
+/*SECTION_STORIES*/
+
+  .stories .container-stories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .stories .section-stories{
+    max-width: 24rem;
+    max-height: 31.25rem;
+    height: 31.25rem;
+    max-width: clamp(17.5rem, 0rem + 50vw, 24rem);
+  }
+
+  .section-stories:nth-of-type(5){
+    background: url('./assets/stories/desktop/world-tour.jpg') no-repeat center / cover;
+  }
+
+  .section-stories:nth-of-type(6){
+    background: url('./assets/stories/desktop/unforeseen-corners.jpg') no-repeat center / cover;
+  }
+
+  .section-stories:nth-of-type(7){
+    background: url('./assets/stories/desktop/king-on-africa.jpg') no-repeat center / cover;
+  }
+
+  .section-stories:nth-of-type(8){
+    background: url('./assets/stories/desktop/trip-to-nowhere.jpg') no-repeat center / cover;
+  }
+
+  .section-stories:nth-of-type(9){
+    background: url('./assets/stories/desktop/rage-of-the-sea.jpg') no-repeat center / cover;
+  }
+
+  .section-stories:nth-of-type(10){
+    background: url('./assets/stories/desktop/running-free.jpg') no-repeat center / cover;
+  }
+
+  .section-stories:nth-of-type(11){
+    background: url('./assets/stories/desktop/behind-the-waves.jpg') no-repeat center / cover;
+  }
+
+  .section-stories:nth-of-type(12){
+    background: url('./assets/stories/desktop/calm-waters.jpg') no-repeat center / cover;
+  }
+
+  .section-stories:nth-of-type(13){
+    background: url('./assets/stories/desktop/milky-way.jpg') no-repeat center / cover;
+  }
+
+  .section-stories:nth-of-type(14){
+    background: url('./assets/stories/desktop/dark-forest.jpg') no-repeat center / cover;
+  }
+
+  .section-stories:nth-of-type(15){
+    background: url('./assets/stories/desktop/somwarpet.jpg') no-repeat center / cover;
+  }
+
+  .section-stories:nth-of-type(16){
+    background: url('./assets/stories/desktop/land-of-dreams.jpg') no-repeat center / cover;
+  }
+
+}
+
+
+@media screen and (min-width: 69.375rem){
+
+  .stories .main-header{
+    background: url('./assets/stories/desktop/moon-of-appalacia.jpg') no-repeat center / cover;
+  }
+
+
+/*SECTION_STORIES*/
+
+  .stories .container-stories{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90rem;    
+  }
+
+  .stories .section-stories{
+    max-width: clamp(17.3438rem, 0rem + 25vw, 22.5rem);
+  }
+
+}
